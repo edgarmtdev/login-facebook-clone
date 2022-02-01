@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #edf0f5;
+}
+.main {
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.main__container {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+
+img {
+    height: 106px;
+    margin-left: -28px;
+    margin-bottom: 20px;
+}
+
+
+.main__container--left {
+    display: inline-block;
+    margin-right: 15.999px;
+    vertical-align: top;
+    width: 50%;
+    margin-top: 2em;
+}
+
+.main__container--rigth {
+    display: inline-block;
+}
+
+.main__form {
+    display: block;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 396px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.main__form--input input{
+    width: 332px;
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:  1px solid #dddfe2;
+    font-size: 16px;
+}
+
+#sesion{
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#newAccount {
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 20px;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+#barra{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em; 
+}
+
+#forget__pass {
+    text-decoration: none;
+    font-size: 14px;
+    color: #1877f2;
+    font-weight: 600;
+}
+
+#forget__pass:hover {
+    text-decoration: underline;
+}
+
+.add {
+    margin-top: 20px;  
+    width: 396px; 
+    margin-left: 15px;
+}
+
+.add a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.add a:hover {
+    text-decoration: underline;
+}
+
+.add p {
+    text-align: center;
+}
